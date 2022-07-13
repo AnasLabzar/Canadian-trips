@@ -1,0 +1,107 @@
+body {
+    header {
+        background: url("https://i.ibb.co/YDmxLRy/bg-header.jpg");
+        background-size: cover;
+        height: 40em;
+
+        nav {
+            padding: 30px 36px;
+
+            .navbar-header {
+                .navbar-brand {
+                    img {
+                        height: 80px;
+                        padding: 20px;
+                    }
+                }
+            }
+
+            .navbar-menu {
+                margin-left: 2em;
+                width: 100%;
+
+                .navbar-nav {
+                    flex-direction: row;
+
+                    .nav-item {
+                        text-align: right;
+                        display: flex;
+
+                        .nav-link {
+                            color: #fff;
+                            padding: 26px 14px;
+                            font-size: 14px;
+                            font-weight: 600;
+
+                            &:hover {
+                                color: rgb(95, 183, 255);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .content_slide {
+            text-align: center;
+            margin-top: 6em;
+
+            .container {
+
+                h2 {
+                    color: #fff;
+                    font-size: 56px;
+                }
+
+                .slide__subtitle {
+                    color: #fff;
+                    font-weight: 400;
+                    margin-bottom: 4em;
+                }
+
+                .slide__action {
+                    background: #E31326;
+                    width: fit-content;
+                    margin: 0 auto;
+                    padding: 10px 26px;
+                    border-radius: 30px;
+
+                    .button {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        background: #F1F6F7;
+
+        .guide_country {
+            background: url('https://i.ibb.co/CJw4m9Z/map.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            position: relative;
+            height: 30em;
+            top: 2em;
+
+            .section_parent {
+                background-repeat: no-repeat;
+                background-position-x: center;
+                text-align: center;
+                
+                .section_child {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 100%;
+                }
+            }
+
+        }
+    }
+}

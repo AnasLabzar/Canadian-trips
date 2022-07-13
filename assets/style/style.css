@@ -1,0 +1,112 @@
+body header {
+  background: url("https://i.ibb.co/YDmxLRy/bg-header.jpg");
+  background-size: cover;
+  height: 40em;
+}
+
+body header nav {
+  padding: 30px 36px;
+}
+
+body header nav .navbar-header .navbar-brand img {
+  height: 80px;
+  padding: 20px;
+}
+
+body header nav .navbar-menu {
+  margin-left: 2em;
+  width: 100%;
+}
+
+body header nav .navbar-menu .navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body header nav .navbar-menu .navbar-nav .nav-item {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav .navbar-menu .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 26px 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body header nav .navbar-menu .navbar-nav .nav-item .nav-link:hover {
+  color: #5fb7ff;
+}
+
+body header .content_slide {
+  text-align: center;
+  margin-top: 6em;
+}
+
+body header .content_slide .container h2 {
+  color: #fff;
+  font-size: 56px;
+}
+
+body header .content_slide .container .slide__subtitle {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 4em;
+}
+
+body header .content_slide .container .slide__action {
+  background: #E31326;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 26px;
+  border-radius: 30px;
+}
+
+body header .content_slide .container .slide__action .button {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+body main {
+  background: #F1F6F7;
+}
+
+body main .guide_country {
+  background: url("https://i.ibb.co/CJw4m9Z/map.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  height: 30em;
+  top: 2em;
+}
+
+body main .guide_country .section_parent {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  text-align: center;
+}
+
+body main .guide_country .section_parent .section_child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
