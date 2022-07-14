@@ -1,0 +1,96 @@
+body header {
+  background: url("https://i.ibb.co/HVd0h1p/bg-about.png");
+  background-size: cover;
+  background-position-y: -22em;
+  height: 36em;
+}
+
+body header .content_slide .slide__subtitle p {
+  font-weight: 700;
+}
+
+body header .content_slide .slide__subtitle p a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+body .form {
+  width: 40em;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 40px -10px #000;
+          box-shadow: 0 0 40px -10px #000;
+  margin: 0 auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  bottom: 14em;
+}
+
+body .form h2 {
+  margin: 10px 36em 38px 0px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+body .form input {
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+body .form input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+body .form button {
+  float: right;
+  padding: 8px 12px;
+  margin: 18px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body .form button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+body .form div {
+  content: 'Hi';
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0em;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 13px;
+  -webkit-box-shadow: 10px 10px 40px -14px #000 span;
+          box-shadow: 10px 10px 40px -14px #000 span;
+  box-shadow-margin: 0 5px 0 15px;
+}
+/*# sourceMappingURL=style.css.map */

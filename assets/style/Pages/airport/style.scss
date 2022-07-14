@@ -1,0 +1,22 @@
+body {
+    header {
+        background: url("https://i.ibb.co/HVd0h1p/bg-about.png");
+        background-size: cover;
+        background-position-y: -22em;
+        height: 26em;
+
+        .content_slide{
+            .slide__subtitle{
+                p{
+                    font-weight: 700;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
